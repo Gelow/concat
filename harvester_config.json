@@ -1,0 +1,19 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "username",
+    "password": "somepassword",
+    "database": "kobza"
+  },
+  "logger": {
+    "name": "Harvester",
+    "level": "DEBUG",
+    "logfile": "/home/user/kobza/log/harvester.log",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "console": false
+  },
+  "parser": {
+    "biblioXSL": "marc21xml2unimarc.xsl",
+    "authXSL": "marc21auth2unimarc.xsl"
+  }
+}
